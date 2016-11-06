@@ -133,7 +133,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
     vendor/motorola/addison/proprietary/lib/libunshorten.so:system/lib/libunshorten.so \
     vendor/motorola/addison/proprietary/lib/libzxingcpp.so:system/lib/libzxingcpp.so \
-    vendor/motorola/addison/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/motorola/addison/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/motorola/addison/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/motorola/addison/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
