@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/addison/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
     vendor/motorola/addison/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/motorola/addison/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/motorola/addison/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/addison/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/addison/proprietary/bin/motosh:system/bin/motosh \
