@@ -169,34 +169,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/motorola/addison/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/motorola/addison/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_1080p_preview_3a.so:system/vendor/lib/libchromatix_mot_imx362_1080p_preview_3a.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_1080p_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_1080p_video_3a.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_4k_preview_3a.so:system/vendor/lib/libchromatix_mot_imx362_4k_preview_3a.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_4k_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_4k_video_3a.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_common.so:system/vendor/lib/libchromatix_mot_imx362_common.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_imx362_cpp_hfr_120.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_240.so:system/vendor/lib/libchromatix_mot_imx362_cpp_hfr_240.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_60.so:system/vendor/lib/libchromatix_mot_imx362_cpp_hfr_60.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_imx362_cpp_liveshot.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_preview.so:system/vendor/lib/libchromatix_mot_imx362_cpp_preview.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_imx362_cpp_snapshot.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_video_4k.so:system/vendor/lib/libchromatix_mot_imx362_cpp_video_4k.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_video.so:system/vendor/lib/libchromatix_mot_imx362_cpp_video.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_default_preview_3a.so:system/vendor/lib/libchromatix_mot_imx362_default_preview_3a.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_default_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_default_video_3a.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_default_video.so:system/vendor/lib/libchromatix_mot_imx362_default_video.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_fullsize_preview_3a.so:system/vendor/lib/libchromatix_mot_imx362_fullsize_preview_3a.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_fullsize_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_fullsize_video_3a.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_imx362_hfr_120_3a.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_120.so:system/vendor/lib/libchromatix_mot_imx362_hfr_120.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_240_3a.so:system/vendor/lib/libchromatix_mot_imx362_hfr_240_3a.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_240.so:system/vendor/lib/libchromatix_mot_imx362_hfr_240.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_60_3a.so:system/vendor/lib/libchromatix_mot_imx362_hfr_60_3a.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_60.so:system/vendor/lib/libchromatix_mot_imx362_hfr_60.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_postproc.so:system/vendor/lib/libchromatix_mot_imx362_postproc.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_preview.so:system/vendor/lib/libchromatix_mot_imx362_preview.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_snapshot.so:system/vendor/lib/libchromatix_mot_imx362_snapshot.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libchromatix_mot_imx362_video_4k.so:system/vendor/lib/libchromatix_mot_imx362_video_4k.so \
     vendor/motorola/addison/proprietary/vendor/lib/libchromatix_ov16860_4k_ihdr_video_3a.so:system/vendor/lib/libchromatix_ov16860_4k_ihdr_video_3a.so \
     vendor/motorola/addison/proprietary/vendor/lib/libchromatix_ov16860_4k_video_3a.so:system/vendor/lib/libchromatix_ov16860_4k_video_3a.so \
     vendor/motorola/addison/proprietary/vendor/lib/libchromatix_ov16860_common.so:system/vendor/lib/libchromatix_ov16860_common.so \
@@ -329,8 +301,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/vendor/lib/libmmcamera_isp_template.so:system/vendor/lib/libmmcamera_isp_template.so \
     vendor/motorola/addison/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
     vendor/motorola/addison/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libmmcamera_mot_imx362_pdaf.so:system/vendor/lib/libmmcamera_mot_imx362_pdaf.so \
-    vendor/motorola/addison/proprietary/vendor/lib/libmmcamera_mot_imx362.so:system/vendor/lib/libmmcamera_mot_imx362.so \
     vendor/motorola/addison/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
     vendor/motorola/addison/proprietary/vendor/lib/libmmcamera_ov16860_eeprom.so:system/vendor/lib/libmmcamera_ov16860_eeprom.so \
     vendor/motorola/addison/proprietary/vendor/lib/libmmcamera_ov16860_pdaf.so:system/vendor/lib/libmmcamera_ov16860_pdaf.so \
