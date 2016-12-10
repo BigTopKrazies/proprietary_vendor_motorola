@@ -75,8 +75,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/etc/firmware/marley-dsp2-aov-frontend.wmfw:system/etc/firmware/marley-dsp2-aov-frontend.wmfw \
     vendor/motorola/addison/proprietary/etc/firmware/marley-dsp3-aov-control.wmfw:system/etc/firmware/marley-dsp3-aov-control.wmfw \
     vendor/motorola/addison/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
-    vendor/motorola/addison/proprietary/etc/firmware/synaptics-s3508-16072201-246de6-addison.tdat:system/etc/firmware/synaptics-s3508-16072201-246de6-addison.tdat \
-    vendor/motorola/addison/proprietary/etc/firmware/synaptics-s3508sga-16072201-246de6-addison.tdat:system/etc/firmware/synaptics-s3508sga-16072201-246de6-addison.tdat \
+    vendor/motorola/addison/proprietary/etc/firmware/synaptics-s3508-16080201-246de6-addison.tdat:system/etc/firmware/synaptics-s3508-16080201-246de6-addison.tdat \
+    vendor/motorola/addison/proprietary/etc/firmware/synaptics-s3508sga-16080201-246de6-addison.tdat:system/etc/firmware/synaptics-s3508sga-16080201-246de6-addison.tdat \
     vendor/motorola/addison/proprietary/etc/firmware/vrgain.bin:system/etc/firmware/vrgain.bin \
     vendor/motorola/addison/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/motorola/addison/proprietary/etc/gps.conf:system/etc/gps.conf \
@@ -403,16 +403,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:system/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
     vendor/motorola/addison/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/motorola/addison/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
-    vendor/motorola/addison/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
-    vendor/motorola/addison/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/motorola/addison/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/motorola/addison/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/motorola/addison/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/motorola/addison/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
-    ims \
     libril \
+    ims \
     TimeService \
     CNEService \
     qcrilhook
