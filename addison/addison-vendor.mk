@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/addison/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/addison/proprietary/bin/motosh:system/bin/motosh \
-    vendor/motorola/addison/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/motorola/addison/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/addison/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/motorola/addison/proprietary/bin/pm-service:system/bin/pm-service \
@@ -137,7 +136,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/lib/libzxingcpp.so:system/lib/libzxingcpp.so \
     vendor/motorola/addison/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/motorola/addison/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/motorola/addison/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/motorola/addison/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/motorola/addison/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/motorola/addison/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
