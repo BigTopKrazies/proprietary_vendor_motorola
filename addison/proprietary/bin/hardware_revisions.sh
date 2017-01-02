@@ -1,6 +1,6 @@
 #!/system/bin/sh
 #
-# Copyright (c) 2013, Motorola LLC  All rights reserved.
+# Copyright (c) 2013-2016, Motorola LLC  All rights reserved.
 #
 # The purpose of this script is to compile information about the hardware
 # versions of various devices on each unit.  This is useful when searching
@@ -17,6 +17,7 @@
 # date=XXXXX
 # lot_code=XXXXX
 # fw_rev=XXXXX
+# size=XXXXMB
 # (components may also add additional fields to the ones above)
 #
 # The extact format of each field will be device-specific, but should be
@@ -58,20 +59,17 @@ rm /data/hardware_revisions/*
 
 #
 # Append one piece of revision data to a given file. If a value is blank,
-# then "NOT_AVAILABLE" is written.
+# then nothing will be written.
 #
 # $1 - tag
 # $2 - value
 # $3 - file to write
 write_one_revision_data()
 {
-    if [ -z "${2}" ]; then
-        VALUE=NOT_AVAILABLE
-    else
+    if [ -n "${2}" ]; then
         VALUE="${2}"
+        echo "${1}=${VALUE}" >> ${3}
     fi
-
-    echo "${1}=${VALUE}" >> ${3}
 }
 
 #
@@ -156,9 +154,10 @@ if [ -d "${PATH_NVM}" ] ; then
     HNAME=`cat ${PATH_NVM}/type`
     if [ -d "${PATH_STORAGE}" ] ; then
         VEND=`cat ${PATH_STORAGE}/vendor`
-        SIZE=`cat ${PATH_STORAGE}/size`
+        SIZE=$((1024 * `cat ${PATH_STORAGE}/size | grep -oE '^[0-9]+'`))
     else
         VEND=`cat ${PATH_NVM}/manfid`
+        SIZE=$((1024 * `getprop ro.boot.storage | grep -oE '^[0-9]+'`))
     fi
     HREV=`cat ${PATH_NVM}/name`
     DATE=`cat ${PATH_NVM}/date`
@@ -174,13 +173,11 @@ else
         VEND=`cat ${PATH_STORAGE}/vendor`
         HREV=`cat ${PATH_STORAGE}/model`
         FREV=`cat ${PATH_STORAGE}/fw`
-        SIZE=`cat ${PATH_STORAGE}/size`
+        SIZE=$((1024 * `cat ${PATH_STORAGE}/size | grep -oE '^[0-9]+'`))
     fi
 fi
 create_common_revision_data "${FILE}" "${HNAME}" "${VEND}" "${HREV}" "${DATE}" "${LOT_CODE}" "${FREV}"
-if [ -d "${PATH_STORAGE}" ] ; then
 write_one_revision_data "size" "${SIZE}" "${FILE}"
-fi
 apply_revision_data_perms "${FILE}"
 
 
