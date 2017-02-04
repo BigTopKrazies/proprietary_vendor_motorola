@@ -1053,8 +1053,6 @@ PRODUCT_PACKAGES += \
     DiagMon \
     DMService \
     ImagerTuning \
-    SlpcService \
-    SlpcSystem \
     SprintDM \
     ColorProfiles\
     DMConfigUpdateLight \
