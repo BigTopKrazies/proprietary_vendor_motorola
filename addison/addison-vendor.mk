@@ -23,6 +23,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/addison/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
     vendor/motorola/addison/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/motorola/addison/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/motorola/addison/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/motorola/addison/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/motorola/addison/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/motorola/addison/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/motorola/addison/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/addison/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -80,8 +84,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/motorola/addison/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/motorola/addison/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+    vendor/motorola/addison/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/motorola/addison/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
     vendor/motorola/addison/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/motorola/addison/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/motorola/addison/proprietary/etc/qdcm_calib_data_mipi_mot_cmd_smd_1080p_549.xml:system/etc/qdcm_calib_data_mipi_mot_cmd_smd_1080p_549.xml \
     vendor/motorola/addison/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/addison/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin \
@@ -161,6 +167,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/motorola/addison/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
     vendor/motorola/addison/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
+    vendor/motorola/addison/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/motorola/addison/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
     vendor/motorola/addison/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/motorola/addison/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/motorola/addison/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
@@ -213,6 +221,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/motorola/addison/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/motorola/addison/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/motorola/addison/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/motorola/addison/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/motorola/addison/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -229,7 +238,19 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/motorola/addison/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/motorola/addison/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/motorola/addison/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
     vendor/motorola/addison/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/motorola/addison/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/motorola/addison/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -367,6 +388,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/motorola/addison/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/motorola/addison/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
+    vendor/motorola/addison/proprietary/vendor/lib/librcc.so:system/vendor/lib/librcc.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
     vendor/motorola/addison/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
     vendor/motorola/addison/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/motorola/addison/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
@@ -376,6 +400,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/motorola/addison/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/motorola/addison/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
+    vendor/motorola/addison/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
     vendor/motorola/addison/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
     vendor/motorola/addison/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/motorola/addison/proprietary/vendor/lib/libscveBlobDescriptor.so:system/vendor/lib/libscveBlobDescriptor.so \
@@ -448,9 +476,11 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libril \
-    ims \
     TimeService \
     CNEService \
     colorservice \
+    ims \
+    imssettings \
     com.qti.snapdragon.sdk.display \
+    imscmlibrary \
     qcrilhook
