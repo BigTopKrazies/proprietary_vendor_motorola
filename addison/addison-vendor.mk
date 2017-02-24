@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/addison/proprietary/bin/cnd:system/bin/cnd \
     vendor/motorola/addison/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
-    vendor/motorola/addison/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
     vendor/motorola/addison/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/addison/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/motorola/addison/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
