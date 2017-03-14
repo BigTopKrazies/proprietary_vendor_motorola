@@ -83,6 +83,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/motorola/addison/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/motorola/addison/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+    vendor/motorola/addison/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/motorola/addison/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
     vendor/motorola/addison/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/motorola/addison/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
@@ -470,10 +471,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libril \
     TimeService \
+    datastatusnotification \
+    embms \
     CNEService \
     colorservice \
     ims \
     imssettings \
     com.qti.snapdragon.sdk.display \
+    embmslibrary \
     imscmlibrary \
     qcrilhook
