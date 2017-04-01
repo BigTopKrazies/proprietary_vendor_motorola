@@ -94,7 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin \
     vendor/motorola/addison/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
     vendor/motorola/addison/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
-    vendor/motorola/addison/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
+    vendor/motorola/addison/proprietary/lib/hw/camera.vendor.msm8953.so:system/lib/hw/camera.vendor.msm8953.so \
     vendor/motorola/addison/proprietary/lib/hw/camera.rc.so:system/lib/hw/camera.rc.so \
     vendor/motorola/addison/proprietary/lib/hw/fingerprint.msm8953.so:system/lib/hw/fingerprint.msm8953.so \
     vendor/motorola/addison/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
