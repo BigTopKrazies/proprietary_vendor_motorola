@@ -506,6 +506,7 @@ PRODUCT_PACKAGES += \
     CNEService \
     QtiTetherService \
     com.qualcomm.location \
+    qcrilmsgtunnel \
     colorservice \
     ims \
     imssettings \
