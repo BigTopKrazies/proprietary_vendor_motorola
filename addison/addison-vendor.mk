@@ -500,6 +500,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libril \
+    QtiTelephonyService \
     TimeService \
     datastatusnotification \
     CNEService \
@@ -510,6 +511,7 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     ConnectivityExt \
+    QtiTelephonyServicelibrary \
     cneapiclient \
     com.qti.location.sdk \
     com.qti.snapdragon.sdk.display \
@@ -517,4 +519,5 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     imscmlibrary \
     izat.xt.srv \
-    qcrilhook
+    qcrilhook \
+    qti-telephony-common
