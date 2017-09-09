@@ -184,7 +184,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/motorola/shamu/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/motorola/shamu/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
-    vendor/motorola/shamu/proprietary/vendor/lib/hw/activity_recognition.msm8084.so:system/vendor/lib/hw/activity_recognition.msm8084.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/hw/bluetooth.default.so:system/vendor/lib/hw/bluetooth.default.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/hw/flp.msm8084.so:system/vendor/lib/hw/flp.msm8084.so \
     vendor/motorola/shamu/proprietary/vendor/lib/hw/flp.msm8084.so:system/vendor/lib/hw/flp.msm8084.so \
     vendor/motorola/shamu/proprietary/vendor/lib/hw/sensors.msm8084.so:system/vendor/lib/hw/sensors.msm8084.so \
     vendor/motorola/shamu/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
