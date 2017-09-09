@@ -184,7 +184,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/motorola/shamu/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/motorola/shamu/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/hw/android.hidl.memory@1.0-impl.so:system/vendor/lib/hw/android.hidl.memory@1.0-impl.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/hw/audio.a2dp.default.so:system/vendor/lib/hw/audio.a2dp.default.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/hw/audio.motvr.default.so:system/vendor/lib/hw/audio.motvr.default.so \
     vendor/motorola/shamu/proprietary/vendor/lib/hw/bluetooth.default.so:system/vendor/lib/hw/bluetooth.default.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/hw/camera.msm8084.so:system/vendor/lib/hw/camera.msm8084.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/hw/gps.msm8084.so:system/vendor/lib/hw/gps.msm8084.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/hw/keystore.default.so:system/vendor/lib/hw/keystore.default.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/hw/keystore.msm8084.so:system/vendor/lib/hw/keystore.msm8084.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/hw/lights.shamu.so:system/vendor/lib/hw/lights.shamu.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/hw/power.shamu.so:system/vendor/lib/hw/power.shamu.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/hw/sound_trigger.primary.shamu.so:system/vendor/lib/hw/sound_trigger.primary.shamu.so \
     vendor/motorola/shamu/proprietary/vendor/lib/hw/flp.msm8084.so:system/vendor/lib/hw/flp.msm8084.so \
     vendor/motorola/shamu/proprietary/vendor/lib/hw/flp.msm8084.so:system/vendor/lib/hw/flp.msm8084.so \
     vendor/motorola/shamu/proprietary/vendor/lib/hw/sensors.msm8084.so:system/vendor/lib/hw/sensors.msm8084.so \
