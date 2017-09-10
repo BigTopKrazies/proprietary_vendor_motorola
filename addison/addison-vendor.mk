@@ -115,13 +115,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/motorola/addison/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/addison/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    vendor/motorola/addison/proprietary/lib/hw/camera.vendor.msm8953.so:system/lib/hw/camera.vendor.msm8953.so \
-    vendor/motorola/addison/proprietary/lib/hw/camera.rc.so:system/lib/hw/camera.rc.so \
-    vendor/motorola/addison/proprietary/lib/hw/fingerprint.msm8953.so:system/lib/hw/fingerprint.msm8953.so \
-    vendor/motorola/addison/proprietary/lib/hw/sensorhub.msm8953.so:system/lib/hw/sensorhub.msm8953.so \
-    vendor/motorola/addison/proprietary/lib/hw/sensors.addison.so:system/lib/hw/sensors.addison.so \
-    vendor/motorola/addison/proprietary/lib/hw/sensors.iio.so:system/lib/hw/sensors.iio.so \
-    vendor/motorola/addison/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
+    vendor/motorola/addison/proprietary/vendor/etc/sensors/camera.vendor.msm8953.so:system/vendor/etc/sensors/camera.vendor.msm8953.so \
+    vendor/motorola/addison/proprietary/vendor/etc/sensors/camera.rc.so:system/vendor/etc/sensors/camera.rc.so \
+    vendor/motorola/addison/proprietary/vendor/etc/sensors/fingerprint.msm8953.so:system/vendor/etc/sensors/fingerprint.msm8953.so \
+    vendor/motorola/addison/proprietary/vendor/etc/sensors/sensorhub.msm8953.so:system/vendor/etc/sensors/sensorhub.msm8953.so \
+    vendor/motorola/addison/proprietary/vendor/etc/sensors/sensors.addison.so:system/vendor/etc/sensors/sensors.addison.so \
+    vendor/motorola/addison/proprietary/vendor/etc/sensors/sensors.iio.so:system/vendor/etc/sensors/sensors.iio.so \
+    vendor/motorola/addison/proprietary/vendor/etc/sensors/sensors.msm8953.so:system/vendor/etc/sensors/sensors.msm8953.so \
     vendor/motorola/addison/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/addison/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
     vendor/motorola/addison/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
@@ -503,13 +503,10 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     TimeService \
     datastatusnotification \
-    CNEService \
     QtiTetherService \
     com.qualcomm.location \
     qcrilmsgtunnel \
     colorservice \
-    ims \
-    imssettings \
     ConnectivityExt \
     QtiTelephonyServicelibrary \
     cneapiclient \
