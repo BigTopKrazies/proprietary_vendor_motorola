@@ -18,17 +18,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/bin/adspd:system/bin/adspd \
     vendor/motorola/addison/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/addison/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/motorola/addison/proprietary/bin/cnd:system/bin/cnd \
     vendor/motorola/addison/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/motorola/addison/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/motorola/addison/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/motorola/addison/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/motorola/addison/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/motorola/addison/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/motorola/addison/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/motorola/addison/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/addison/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/motorola/addison/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/addison/proprietary/bin/motosh:system/bin/motosh \
     vendor/motorola/addison/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/addison/proprietary/bin/pm-proxy:system/bin/pm-proxy \
