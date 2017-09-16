@@ -517,4 +517,5 @@ PRODUCT_PACKAGES += \
     imscmlibrary \
     izat.xt.srv \
     qcrilhook \
-    qti-telephony-common
+    qti-telephony-common \
+    atfwd
