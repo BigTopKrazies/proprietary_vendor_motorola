@@ -21,10 +21,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/motorola/addison/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/addison/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
-    vendor/motorola/potter/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/motorola/potter/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/motorola/potter/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/motorola/potter/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/motorola/addison/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/motorola/addison/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/motorola/addison/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/motorola/addison/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/motorola/addison/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/addison/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/motorola/addison/proprietary/bin/motosh:system/bin/motosh \
