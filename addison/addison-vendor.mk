@@ -461,6 +461,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/addison/proprietary/vendor/lib/libpanelmode.so:system/vendor/lib/libpanelmode.so \
     vendor/motorola/addison/proprietary/vendor/lib/libbson.so:system/vendor/lib/libbson.so \
+    vendor/motorola/addison/proprietary/vendor/lib/libbson.so:system/vendor/lib/libbson.so \
+    vendor/motorola/addison/proprietary/vendor/lib/libguy.so:system/vendor/lib/libguy.so \
+    vendor/motorola/addison/proprietary/vendor/lib/libuy.so:system/vendor/lib/libuy.so \
     vendor/motorola/addison/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
     vendor/motorola/addison/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
     vendor/motorola/addison/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
