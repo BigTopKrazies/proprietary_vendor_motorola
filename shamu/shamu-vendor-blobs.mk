@@ -90,7 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/etc/thermal-engine-shamu.conf:system/etc/thermal-engine-shamu.conf \
     vendor/moto/shamu/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
     vendor/moto/shamu/proprietary/lib/hw/sound_trigger.primary.shamu.so:system/lib/hw/sound_trigger.primary.shamu.so \
-    vendor/moto/shamu/proprietary/lib/soundfx/libspeakerbundle.so:system/lib/soundfx/libspeakerbundle.so \
     vendor/moto/shamu/proprietary/lib/libadspd-jni.so:system/lib/libadspd-jni.so \
     vendor/moto/shamu/proprietary/lib/libadspd.so:system/lib/libadspd.so \
     vendor/moto/shamu/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
@@ -108,6 +107,11 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/moto/shamu/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
     vendor/moto/shamu/proprietary/lib/libtrainingcheck.so:system/lib/libtrainingcheck.so \
+    vendor/moto/shamu/proprietary/vendor/lib/soundfx/libqcompostprocbundle.so:system/vendor/lib/soundfx/libqcompostprocbundle.so \
+    vendor/moto/shamu/proprietary/vendor/lib/soundfx/libqcomvisualizer.so:system/vendor/lib/soundfx/libqcomvisualizer.so \
+    vendor/moto/shamu/proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so:system/vendor/lib/soundfx/libqcomvoiceprocessing.so \
+    vendor/moto/shamu/proprietary/vendor/lib/soundfx/libqcomvoiceprocessingdescriptors.so:system/vendor/lib/soundfx/libqcomvoiceprocessingdescriptors.so \
+    vendor/moto/shamu/proprietary/vendor/lib/soundfx/libspeakerbundle.so:system/vendor/lib/soundfx/libspeakerbundle.so \
     vendor/moto/shamu/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/moto/shamu/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/moto/shamu/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
