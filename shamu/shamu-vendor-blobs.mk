@@ -102,7 +102,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/lib/libflacencoder.so:system/lib/libflacencoder.so \
     vendor/moto/shamu/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/moto/shamu/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
-    vendor/moto/shamu/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
     vendor/moto/shamu/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/moto/shamu/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/moto/shamu/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
