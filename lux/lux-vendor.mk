@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lux/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/lux/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     vendor/motorola/lux/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
-    vendor/motorola/lux/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
     vendor/motorola/lux/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/motorola/lux/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/motorola/lux/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
