@@ -245,10 +245,12 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/moto/shamu/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/moto/shamu/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/moto/shamu/proprietary/vendor/lib/libfacenet-32.so:system/vendor/lib/libfacenet-32.so \
     vendor/moto/shamu/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
     vendor/moto/shamu/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/moto/shamu/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/moto/shamu/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/moto/shamu/proprietary/vendor/lib/libprotobuf-cpp-preo.so:system/vendor/lib/libprotobuf-cpp-preo.so \
     vendor/moto/shamu/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/moto/shamu/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
     vendor/moto/shamu/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
