@@ -201,6 +201,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/moto/shamu/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/moto/shamu/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/moto/shamu/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/moto/shamu/proprietary/vendor/lib/libchromatix_ar0261_common.so:system/vendor/lib/libchromatix_ar0261_common.so \
     vendor/moto/shamu/proprietary/vendor/lib/libchromatix_ar0261_cpp.so:system/vendor/lib/libchromatix_ar0261_cpp.so \
     vendor/moto/shamu/proprietary/vendor/lib/libchromatix_ar0261_default_video.so:system/vendor/lib/libchromatix_ar0261_default_video.so \
